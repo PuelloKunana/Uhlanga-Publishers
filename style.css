@@ -99,11 +99,15 @@ section span{
 }
 
 #about{
-    background: linear-gradient( white, black);
+    background: linear-gradient( black, white);
 }
 
 #books{
     background: linear-gradient( black, white);
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 #contact{
@@ -111,10 +115,8 @@ section span{
 }
 
 #Events{
-  background: linear-gradient( white, black);
+  background: linear-gradient( black, white);
 }
-
-
 
 section h1{
     position: absolute;
@@ -357,4 +359,3 @@ div.footerCopy{
     margin-left: 50px;
     margin-top: 100px;
 }
-
