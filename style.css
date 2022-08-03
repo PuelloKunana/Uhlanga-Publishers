@@ -99,7 +99,7 @@ section span{
 }
 
 #about{
-    background: linear-gradient( black, white);
+    background: linear-gradient( white, black);
 }
 
 #books{
@@ -109,6 +109,12 @@ section span{
 #contact{
     background: linear-gradient( black, white);
 }
+
+#Events{
+  background: linear-gradient( white, black);
+}
+
+
 
 section h1{
     position: absolute;
@@ -347,6 +353,8 @@ div.footerCopy{
 }
 
 .video{
-    padding-left: 100px;
+    padding-left: 10px;
     margin-left: 50px;
+    margin-top: 100px;
 }
+
