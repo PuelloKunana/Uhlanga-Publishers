@@ -16,6 +16,9 @@ div, section, span, ul, li, a, header{
     box-sizing: border-box;
 }
 
+p{
+  font-size: large;
+}
 
 header{
     display: inline-flex;
@@ -99,7 +102,8 @@ section span{
 }
 
 #about{
-    background: linear-gradient( black, white);
+    background: linear-gradient( white, black);
+  
 }
 
 #books{
@@ -110,12 +114,17 @@ section span{
     padding: 0;
 }
 
+#Events{
+  background: linear-gradient( white, black);
+}
+
 #contact{
     background: linear-gradient( black, white);
 }
 
-#Events{
-  background: linear-gradient( black, white);
+.main{
+  width: 700px;
+  height: 700px;
 }
 
 section h1{
@@ -359,3 +368,17 @@ div.footerCopy{
     margin-left: 50px;
     margin-top: 100px;
 }
+
+.addlogo {
+  width: 100px;
+}
+
+.ifoto {
+  margin: auto 238px;
+    float: left;
+    width: 215px;
+    height: 168px;
+  position: relative;
+  top: -172px;
+}
+
